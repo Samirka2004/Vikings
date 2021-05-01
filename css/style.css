@@ -218,7 +218,9 @@ ul {
 
 .heroes__slider-img {
    max-width: 775px;
+   max-height: auto;
 }
+
 
 .heroes__slider-text {
    max-width: 350px;
