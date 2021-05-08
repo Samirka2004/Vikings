@@ -31,5 +31,11 @@ $(function(){
       fade: true,
       arrows:false,
    });
-
+   $('[data-fancybox]').fancybox({
+      toolbar  : false,
+      smallBtn : true,
+      iframe : {
+         preload : false
+      }
+   })
 });
